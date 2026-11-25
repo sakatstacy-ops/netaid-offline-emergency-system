@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8f3">
+    <meta name="description" content="NetAid helps communities report incidents and access emergency resources, even when the network is down.">
+    <title>NetAid — Emergency communication that never goes offline</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="NetAid home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>NetAid</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#features">How it works</a>
+        <a href="#story">Our story</a>
+      </nav>
+      <a class="button button-small button-dark header-cta" href="#report">Open NetAid <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> OFFLINE-FIRST · COMMUNITY RESPONSE</div>
+          <h1>Emergency communication<br>that never <span>goes offline.</span></h1>
+          <p class="hero-intro">When the network disappears, your community shouldn't. Record incidents, keep essential contacts close, and find practical safety guidance — even without a signal.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#report">Get started free <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#features">See how it works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <span class="proof-icon" aria-hidden="true">⌁</span>
+            <span>Made for the moments connectivity can't be counted on.</span>
+          </div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Illustration of a community staying connected during a network outage">
+          <div class="art-sun"></div>
+          <div class="art-grid"></div>
+          <div class="signal-pill"><span class="signal-bars" aria-hidden="true"><i></i><i></i><i></i></span> NO SIGNAL? NO PROBLEM.</div>
+          <div class="phone-card">
+            <div class="phone-top"><span class="phone-brand"><span class="tiny-mark">N</span> NetAid</span><span class="live-dot">LOCAL MODE</span></div>
+            <div class="phone-heading">Your community,<br><strong>still connected.</strong></div>
+            <div class="phone-report">
+              <span class="report-symbol">!</span>
+              <span><strong>Incident saved</strong><small>Waiting for a connection</small></span>
+              <span class="report-check">✓</span>
+            </div>
+            <div class="phone-status"><span>Stored securely on this device</span><span>↗</span></div>
+          </div>
+          <div class="art-note"><span class="note-icon">✳</span><span><strong>Ready when you are</strong><small>Your reports stay with you.</small></span></div>
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+        </div>
+      </section>
+
+      <section class="feature-strip" id="features">
+        <div class="page-width">
+          <div class="section-kicker">BUILT FOR RESILIENCE</div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon icon-green" aria-hidden="true">↟</span>
+              <h3>Works offline</h3>
+              <p>Save incident reports on your device, even with zero bars of signal.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon icon-yellow" aria-hidden="true">⟳</span>
+              <h3>Ready to sync</h3>
+              <p>Reports wait safely on this device until a connection and sync service are available.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon icon-orange" aria-hidden="true">✆</span>
+              <h3>Contacts close by</h3>
+              <p>Keep the people and services your community relies on within easy reach.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon icon-blue" aria-hidden="true">▤</span>
+              <h3>Offline resources</h3>
+              <p>Read practical preparedness and safety information wherever you are.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section page-width" id="story">
+        <div class="story-heading">
+          <div class="section-kicker">THE STORY BEHIND NETAID</div>
+          <h2>From a real problem<br>to a resilient response.</h2>
+          <p>For remote communities and disaster response teams, a lost signal can mean a lost chance to get help.</p>
+          <a class="text-link" href="#report">Try the offline demo <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="story-steps">
+          <article class="story-step">
+            <span class="step-number">01</span>
+            <div><h3>The problem</h3><p>During outages, floods, and in rural blackspots, people may not be able to report emergencies or find the information they need.</p></div>
+          </article>
+          <article class="story-step">
+            <span class="step-number">02</span>
+            <div><h3>A local-first solution</h3><p>NetAid keeps reports and useful resources available on your device, so the essentials remain accessible offline.</p></div>
+          </article>
+          <article class="story-step">
+            <span class="step-number">03</span>
+            <div><h3>Prepared together</h3><p>Communities can capture critical details and keep practical guidance close, ready for when it matters.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="app-section" id="report">
+        <div class="page-width app-layout">
+          <aside class="app-intro">
+            <div class="section-kicker">YOUR LOCAL RESPONSE KIT</div>
+            <h2>Useful with or without a signal.</h2>
+            <p>Create a report, keep important numbers nearby, and read the guides saved with this app.</p>
+            <div class="privacy-note"><span aria-hidden="true">◈</span><span><strong>Stored on this device</strong><small>This demo saves reports and contacts in this browser only.</small></span></div>
+            <div class="app-connectivity" id="connectivity-message" role="status" aria-live="polite"></div>
+          </aside>
+          <div class="app-panel">
+            <div class="app-tabs" role="tablist" aria-label="NetAid tools">
+              <button class="app-tab active" id="tab-report" role="tab" aria-selected="true" aria-controls="panel-report" data-panel="report">New report</button>
+              <button class="app-tab" id="tab-contacts" role="tab" aria-selected="false" aria-controls="panel-contacts" data-panel="contacts">Contacts</button>
+              <button class="app-tab" id="tab-guides" role="tab" aria-selected="false" aria-controls="panel-guides" data-panel="guides">Safety guides</button>
+              <button class="app-tab" id="tab-saved" role="tab" aria-selected="false" aria-controls="panel-saved" data-panel="saved">Saved <span class="saved-count" id="saved-count">0</span></button>
+            </div>
+
+            <section class="tab-panel" id="panel-report" role="tabpanel" aria-labelledby="tab-report">
+              <div class="panel-heading"><div><span class="panel-overline">INCIDENT REPORT</span><h3>What’s happening?</h3></div><span class="local-badge"><span></span> SAVES LOCALLY</span></div>
+              <form id="incident-form">
+                <label for="incident-type">Incident type</label>
+                <select id="incident-type" name="type" required>
+                  <option value="">Choose a type</option>
+                  <option>Medical emergency</option><option>Fire</option><option>Flooding</option><option>Road incident</option><option>Safety concern</option><option>Other</option>
+                </select>
+                <div class="form-row">
+                  <div><label for="incident-priority">Priority</label><select id="incident-priority" name="priority" required><option value="urgent">Urgent</option><option value="high">High</option><option value="normal" selected>Normal</option></select></div>
+                  <div><label for="incident-location">Location</label><input id="incident-location" name="location" autocomplete="street-address" placeholder="Where is it happening?" required maxlength="160"></div>
+                </div>
+                <label for="incident-details">Details <span class="optional">(optional)</span></label>
+                <textarea id="incident-details" name="details" rows="3" placeholder="Share what responders or your community should know…" maxlength="1200"></textarea>
+                <div class="form-footer"><span>Your report stays on this device until you choose to share it.</span><button class="button button-primary" type="submit">Save report <span aria-hidden="true">→</span></button></div>
+              </form>
+              <div class="form-feedback" id="form-feedback" role="status" aria-live="polite"></div>
+            </section>
+
+            <section class="tab-panel" id="panel-contacts" role="tabpanel" aria-labelledby="tab-contacts" hidden>
+              <div class="panel-heading"><div><span class="panel-overline">PEOPLE TO REACH</span><h3>Emergency contacts</h3></div></div>
+              <p class="panel-description">Add trusted people and locally verified services. Tap a number to call when your device has service.</p>
+              <form id="contact-form" class="contact-form">
+                <input name="name" aria-label="Contact name" placeholder="Contact name" maxlength="60" required>
+                <input name="phone" aria-label="Phone number" placeholder="Phone number" type="tel" maxlength="30" required>
+                <button class="button button-dark" type="submit">Add contact <span aria-hidden="true">+</span></button>
+              </form>
+              <p class="contact-reminder">Emergency numbers vary by location. Verify the right services and numbers for your community.</p>
+              <ul class="contact-list" id="contact-list"></ul>
+            </section>
+
+            <section class="tab-panel" id="panel-guides" role="tabpanel" aria-labelledby="tab-guides" hidden>
+              <div class="panel-heading"><div><span class="panel-overline">QUICK REFERENCE</span><h3>Safety guides</h3></div><span class="offline-label">AVAILABLE OFFLINE</span></div>
+              <p class="panel-description">General preparedness reminders. Follow local emergency services and trained responders whenever possible.</p>
+              <div class="guide-list">
+                <details class="guide-item"><summary><span class="guide-number">01</span><span><strong>Prepare an emergency kit</strong><small>Essentials for the first 72 hours</small></span><span class="guide-chevron">+</span></summary><div class="guide-content"><p>Keep drinking water, shelf-stable food, necessary medicines, a flashlight, spare batteries, a power bank, a first-aid kit, and copies of key contacts. Check supplies regularly and adapt them to your household.</p></div></details>
+                <details class="guide-item"><summary><span class="guide-number">02</span><span><strong>During flooding</strong><small>Move away from rising water</small></span><span class="guide-chevron">+</span></summary><div class="guide-content"><p>Follow official evacuation instructions. Move to higher ground if it is safe to do so. Never walk or drive through floodwater; depth and current can be deceptive. Avoid downed power lines and report hazards when communication is available.</p></div></details>
+                <details class="guide-item"><summary><span class="guide-number">03</span><span><strong>If you discover a fire</strong><small>Get out and raise the alarm</small></span><span class="guide-chevron">+</span></summary><div class="guide-content"><p>Alert others and leave by a safe exit. Stay low if there is smoke, do not use elevators, and do not re-enter. Once safe, contact your local fire service. Only use an extinguisher if the fire is small, you are trained, and you have a clear exit.</p></div></details>
+                <details class="guide-item"><summary><span class="guide-number">04</span><span><strong>Basic first-aid priorities</strong><small>Protect yourself, then get help</small></span><span class="guide-chevron">+</span></summary><div class="guide-content"><p>Check that the scene is safe before approaching. Contact local emergency services as soon as possible. Follow instructions from trained responders; do not move someone with a suspected serious injury unless they face immediate danger.</p></div></details>
+              </div>
+            </section>
+
+            <section class="tab-panel" id="panel-saved" role="tabpanel" aria-labelledby="tab-saved" hidden>
+              <div class="panel-heading"><div><span class="panel-overline">ON THIS DEVICE</span><h3>Saved reports</h3></div><button class="clear-button" id="clear-reports" type="button">Clear all</button></div>
+              <div id="report-list" class="report-list"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing page-width">
+        <div class="closing-mark" aria-hidden="true">N</div>
+        <div><div class="section-kicker">READY FOR WHEN IT MATTERS</div><h2>Stay prepared.<br>Stay connected.</h2></div>
+        <a class="button button-dark" href="#report">Open the local response kit <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">N</span><span>NetAid</span></a>
+      <span>Emergency support is local. In immediate danger, contact your local emergency services.</span>
+      <span>© <span id="year"></span> NetAid</span>
+    </footer>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

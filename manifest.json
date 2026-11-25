@@ -1,0 +1,17 @@
+{
+  "name": "NetAid — Offline Emergency Response",
+  "short_name": "NetAid",
+  "description": "Local-first emergency reporting, contacts, and safety references.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f3",
+  "theme_color": "#f7f8f3",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
